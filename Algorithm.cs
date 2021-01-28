@@ -9,11 +9,11 @@ namespace Simbirsoft
 {
     class Algorithm
     {
-        public Dictionary<String, int> Words { get; set; }
-        public void SplitText()
+        public static Dictionary<String, int> Words { get; set; }
+        public static void SplitText()
         {
             Words = new Dictionary<string, int>();
-            using (StreamReader sr = new StreamReader("2.txt", System.Text.Encoding.Default))
+            using (StreamReader sr = new StreamReader("htmlPage.html", System.Text.Encoding.Default))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)

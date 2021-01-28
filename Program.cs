@@ -12,28 +12,14 @@ namespace Simbirsoft
     {
         static void Main(string[] args)
         {
-            //String url = Console.ReadLine();
-            //FileWorker.Download(url);
-
-            Dictionary<String, int> words = new Dictionary<string, int>();
-            using (StreamReader sr = new StreamReader("2.txt", System.Text.Encoding.Default))
+            String url = Console.ReadLine();
+            while (FileWorker.Download(url) == false)
             {
-                string line;
-                while ((line = sr.ReadLine()) != null)
-                {
-                    String[] splittedWords = line.Split(new Char[] {' ', ',', '.', '!', '?',
-                    '"', ';', ':', '[', ']', '(', ')', '\n', '\r', '\t'});
-                    foreach (String word in splittedWords)
-                    {
-                        if (words.ContainsKey(word))
-                            words[word] = words[word] + 1;
-                        else
-                            words.Add(word, 1);
-                    }
-                }
-                foreach (var w in words)
-                    Console.WriteLine($"{w.Key} - {w.Value}");
+                url = Console.ReadLine();
             }
+            Algorithm.SplitText();
+            foreach (var w in Algorithm.Words)
+                Console.WriteLine($"{w.Key} - {w.Value}");
 
             Console.ReadLine();
         }

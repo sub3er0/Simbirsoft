@@ -19,7 +19,7 @@ namespace Simbirsoft
             }
             catch (Exception e)
             {
-                Console.WriteLine("Адрес введен некорректно.");
+                Console.WriteLine("Адрес введен некорректно. Повторите попытку.");
                 return false;
             }            
         }
