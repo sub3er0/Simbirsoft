@@ -18,10 +18,14 @@ namespace Simbirsoft
                 url = Console.ReadLine();
             }
             Algorithm.SplitText();
-            foreach (var w in Algorithm.Words)
-                Console.WriteLine($"{w.Key} - {w.Value}");
 
+            foreach (var w in DbWorker.db.Words)
+                Console.WriteLine(w.SplittedWord + " - " + w.Count); 
+            //Word word = new Word { SplittedWord = "", Count = 12 };
+            //DbWorker.db.Words.Add(word);
+            //DbWorker.db.SaveChanges();
             Console.ReadLine();
+
         }
     }
 }

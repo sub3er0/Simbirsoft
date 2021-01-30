@@ -1,0 +1,15 @@
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\Simbirsoft.exe.config
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\Simbirsoft.exe
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\Simbirsoft.pdb
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.csprojAssemblyReference.cache
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.exe
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.pdb
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\EntityFramework.dll
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\EntityFramework.xml
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.csproj.CopyComplete
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.Migrations.InitialCreate.resources
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.csproj.GenerateResource.cache
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.Migrations.migration1.resources
