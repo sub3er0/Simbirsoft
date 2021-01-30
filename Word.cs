@@ -10,7 +10,7 @@ namespace Simbirsoft
     public class Word
     {
         [Key]
-        [MaxLength(250)]
+        [MaxLength(350)]
         public String SplittedWord { get; set; }
         public int Count { get; set; }
     }

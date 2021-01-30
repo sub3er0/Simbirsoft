@@ -7,13 +7,13 @@ namespace Simbirsoft.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class migration1 : IMigrationMetadata
+    public sealed partial class _1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(migration1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(_1));
         
         string IMigrationMetadata.Id
         {
-            get { return "202101301959520_migration1"; }
+            get { return "202101302338254_1"; }
         }
         
         string IMigrationMetadata.Source

@@ -3,18 +3,16 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class migration1 : DbMigration
+    public partial class _1 : DbMigration
     {
         public override void Up()
         {
-            DropPrimaryKey("dbo.Words");
-            AlterColumn("dbo.Words", "SplittedWord", c => c.String(nullable: false, maxLength: 500));
+            AlterColumn("dbo.Words", "SplittedWord", c => c.String(nullable: false, maxLength: 350));
             AddPrimaryKey("dbo.Words", "SplittedWord");
         }
         
         public override void Down()
         {
-            DropPrimaryKey("dbo.Words");
             AlterColumn("dbo.Words", "SplittedWord", c => c.String(nullable: false, maxLength: 128));
             AddPrimaryKey("dbo.Words", "SplittedWord");
         }

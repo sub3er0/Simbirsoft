@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A3E6A8EF-65D4-490B-B862-D53341D5DE07}</ProjectGuid>
+    <ProjectGuid>{796D3864-C4B9-42CB-BC42-6D39E8BEB781}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Simbirsoft</RootNamespace>
     <AssemblyName>Simbirsoft</AssemblyName>
@@ -61,9 +61,9 @@
     <Compile Include="Migrations\202101301749501_InitialCreate.designer.cs">
       <DependentUpon>202101301749501_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202101301959520_migration1.cs" />
-    <Compile Include="Migrations\202101301959520_migration1.designer.cs">
-      <DependentUpon>202101301959520_migration1.cs</DependentUpon>
+    <Compile Include="Migrations\202101302338254_1.cs" />
+    <Compile Include="Migrations\202101302338254_1.designer.cs">
+      <DependentUpon>202101302338254_1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -78,8 +78,8 @@
     <EmbeddedResource Include="Migrations\202101301749501_InitialCreate.resx">
       <DependentUpon>202101301749501_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202101301959520_migration1.resx">
-      <DependentUpon>202101301959520_migration1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202101302338254_1.resx">
+      <DependentUpon>202101302338254_1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

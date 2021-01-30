@@ -12,4 +12,4 @@ C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\bin\Debug\EntityFramework.SqlSe
 C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.csproj.CopyComplete
 C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.Migrations.InitialCreate.resources
 C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.csproj.GenerateResource.cache
-C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.Migrations.migration1.resources
+C:\Users\Alex\source\repos\Simbirsoft\Simbirsoft\obj\Debug\Simbirsoft.Migrations._1.resources
