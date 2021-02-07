@@ -13,7 +13,7 @@ namespace Simbirsoft
         public static void SplitText()
         {
             //Words = new Dictionary<string, int>();
-            using (StreamReader sr = new StreamReader("htmlPage.html", System.Text.Encoding.Default))
+            using (StreamReader sr = new StreamReader("1.txt", System.Text.Encoding.Default))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
